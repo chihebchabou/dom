@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Basket</title>
+  </head>
+  <body>
+    <div id="basket-items" class="container mt-5">
+      <!-- Start Item -->
+      <div class="single-item row border-bottom py-5">
+        <div class="col">
+          <img
+            src="img/537851142,width=300,height=300,appearanceId=1.webp"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex flex-column justify-content-center">
+          <h2>Men's Premium Hoodie</h2>
+          <span><strong>Size</strong>: M</span>
+          <span><strong>Colour</strong>: white</span>
+        </div>
+        <div
+          class="price col d-flex flex-column align-items-center justify-content-around"
+        >
+          <h3><span>40.00</span> €</h3>
+          <div class="quantity">
+            <button title="decrement" class="btn btn-outline-dark decrement">
+              -
+            </button>
+            <!-- <input type="number" name="quantity" min="1" value="1" disabled /> -->
+            <span>1</span>
+            <button title="increment" class="btn btn-outline-dark increment">
+              +
+            </button>
+          </div>
+          <div>
+            <i class="like fas fa-heart fa-lg"></i>
+            <i class="remove btn btn-danger fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- End Item-->
+
+      <!-- Start Item -->
+      <div class="single-item row border-bottom py-5">
+        <div class="col">
+          <img
+            src="img/538996665,width=300,height=300,appearanceId=251.webp"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex flex-column justify-content-center">
+          <h2>Men's Slim Fit T-Shirt</h2>
+          <span><strong>Size</strong>: M</span>
+          <span><strong>Colour</strong>: heather grey</span>
+        </div>
+        <div
+          class="price col d-flex flex-column align-items-center justify-content-around"
+        >
+          <h3><span>20.00</span> €</h3>
+          <div class="quantity">
+            <button title="decrement" class="btn btn-outline-dark decrement">
+              -
+            </button>
+            <!-- <input type="number" name="quantity" min="1" value="1" disabled /> -->
+            <span>1</span>
+            <button title="increment" class="btn btn-outline-dark increment">
+              +
+            </button>
+          </div>
+          <div>
+            <i class="like fas fa-heart fa-lg"></i>
+            <i class="remove btn btn-danger fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- End Item-->
+
+      <!-- Start Item -->
+      <div class="single-item row border-bottom py-5">
+        <div class="col">
+          <img
+            src="img/542631642,width=300,height=300,appearanceId=26.webp"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex flex-column justify-content-center">
+          <h2>Men's Long Sleeve Baseball T-Shirt</h2>
+          <span><strong>Size</strong>: M</span>
+          <span><strong>Colour</strong>: white/navy</span>
+        </div>
+        <div
+          class="price col d-flex flex-column align-items-center justify-content-around"
+        >
+          <h3><span>30.00</span> €</h3>
+          <div class="quantity">
+            <button title="decrement" class="btn btn-outline-dark decrement">
+              -
+            </button>
+            <!-- <input type="number" name="quantity" min="1" value="1" disabled /> -->
+            <span>1</span>
+            <button title="increment" class="btn btn-outline-dark increment">
+              +
+            </button>
+          </div>
+          <div>
+            <i class="like btn fas fa-heart fa-lg"></i>
+            <i class="remove btn btn-danger fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Endt Item -->
+
+      <!-- Start Item -->
+      <div class="single-item row border-bottom py-5">
+        <div class="col">
+          <img
+            src="img/542703362,width=300,height=300,appearanceId=206.webp"
+            alt=""
+          />
+        </div>
+        <div class="col d-flex flex-column justify-content-center">
+          <h2>Men's Polo Shirt slim</h2>
+          <span><strong>Size</strong>: S</span>
+          <span><strong>Colour</strong>: charcoal</span>
+        </div>
+        <div
+          class="price col d-flex flex-column align-items-center justify-content-around"
+        >
+          <h3><span>20.00</span> €</h3>
+          <div class="quantity">
+            <button title="decrement" class="btn btn-outline-dark decrement">
+              -
+            </button>
+            <!-- <input type="number" name="quantity" min="1" value="1" disabled /> -->
+            <span>1</span>
+            <button title="increment" class="btn btn-outline-dark increment">
+              +
+            </button>
+          </div>
+          <div>
+            <i class="like fas fa-heart fa-lg"></i>
+            <i class="remove btn btn-danger fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+      <!-- End Item -->
+
+      <!-- Total Price -->
+      <div id="total-price" class="fixed-top p-2">
+        <div class="text-secondary float-end">
+          <h2>Total: <span id="total">0</span> €</h2>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
